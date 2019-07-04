@@ -1,0 +1,57 @@
+html{
+    font-size: 16px;
+}
+
+.banner{
+    background: linear-gradient(
+        rgba(0,0,0,0.25) 0%,
+        rgba(0,0,0,0.25) 100%
+    ),
+    url('images/banner-girl.png') no-repeat center 60px, 
+    url('images/flower-bkgd.jpg') repeat-x center top;
+    background-size: cover, contain, cover; /* 3 images*/
+    height: 400px
+}
+
+.bannerText h1 {
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+
+.bannerText { 
+    text-align: center;
+    color: white;
+    position: relative;
+    top: calc(50% - 25px); /* calculates to the center, center of the page - half of the font size */
+    font-size: 50px;
+}
+
+
+.newsletter{
+    background: url('images/wave-bkgd.jpg') no-repeat center -450px;
+    background-size: cover;
+    height: 300px;
+}
+.newsletterText h2{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.newsletterText{
+    text-align: center;
+    color: white;
+    position: relative;
+    line-height: 200%;
+    top: 21%;
+}
+
+
+.subscription{
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+form {
+    margin-top: 20px;
+}

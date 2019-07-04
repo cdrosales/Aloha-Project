@@ -28,13 +28,13 @@ html{
 
 
 .newsletter{
-    background: url('images/wave-bkgd.jpg') no-repeat center -450px;
+    background: url('images/wave-bkgd.jpg') no-repeat bottom left;
     background-size: cover;
     height: 300px;
 }
 .newsletterText h2{
     font-size: 40px;
-    padding-bottom: 15px;
+    margin-bt ottom: 15px;
 }
 
 .newsletterText{
@@ -42,7 +42,7 @@ html{
     color: white;
     position: relative;
     line-height: 200%;
-    top: 21%;
+    top: 20%;
 }
 
 

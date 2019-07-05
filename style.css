@@ -65,7 +65,7 @@ form {
     justify-content: space-around;
 }
 
-.alohaInfoText, .linksText{
+.alohaInfoText, .linksText, .linksIcon {
     color: white;
     line-height: 175%;
 }
@@ -104,11 +104,15 @@ form {
     height: 8%;
 }
 
-a {
-    color: pink;
+
+.navLinks {
+    display: flex;
 }
 
-.fab fa-facebook-f, .fab fa-twitter, .fab fa-instagram,
-.fab fa-pinterest, .fab fa-google-plus-g {
-    color: white;
+
+.socialmedia{
+    width: 7%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: no-wrap;
 }

@@ -77,3 +77,11 @@ form {
 .copyright, .address{
     line-height: 125%;
 }
+
+.email {
+    color: white;
+}
+
+.address{
+    color: grey;
+}

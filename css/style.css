@@ -107,6 +107,48 @@ body{
     font-family: 'Raleway Medium';
 }
 
+/*HEADER*/
+
+.topcontainer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+
+#alohaLogo {
+    width: 15%;
+    height: 15%;
+}
+
+#cartIcon{
+    width: 6%;
+    height: 6%;
+}
+
+
+.navLinks {
+    display: flex;
+}
+
+
+.navText {
+    color: lightsalmon;
+
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+/*BANNER*/
+
 .banner{
     background: linear-gradient(
         rgba(0,0,0,0.25) 0%,
@@ -131,6 +173,8 @@ body{
     font-size: 50px;
 }
 
+
+/* NEWSLETTER*/
 
 .newsletter{
     background: url('images/wave-bkgd.jpg') no-repeat bottom left;
@@ -191,29 +235,6 @@ form {
     color: grey;
 }
 
-.topcontainer{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-}
-
-#alohaLogo {
-    width: 20%;
-    height: 20%;
-}
-
-#cartIcon{
-    width: 8%;
-    height: 8%;
-}
-
-
-.navLinks {
-    display: flex;
-}
-
 
 .socialmedia{
     width: 7%;
@@ -221,3 +242,4 @@ form {
     justify-content: space-around;
     flex-wrap: no-wrap;
 }
+

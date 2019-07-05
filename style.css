@@ -34,7 +34,7 @@ html{
 }
 .newsletterText h2{
     font-size: 40px;
-    margin-bt ottom: 15px;
+    margin-bottom: 15px;
 }
 
 .newsletterText{
@@ -60,11 +60,20 @@ form {
 .container{
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: black;
+    background-color: rgb(34, 34, 34);
     display: flex;
     justify-content: space-around;
 }
 
 .alohaInfoText, .linksText{
     color: white;
+    line-height: 175%;
+}
+
+.contact{
+    padding: 14px 0px;
+}
+
+.copyright, .address{
+    line-height: 125%;
 }

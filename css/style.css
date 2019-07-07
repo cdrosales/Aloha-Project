@@ -104,8 +104,13 @@ html{
     width: auto;
 }
 
+    h1, h2 {
+        font-family: 'Playfair Display';
+    }
+
 body{
-    font-family: 'Raleway Medium';
+    font-family: 'Raleway Light';
+    color: #2d2d2d;
 }
 
 /*HEADER*/
@@ -172,10 +177,14 @@ nav {
 
 
 .aboutText{
-    background-color: grey;
     text-align: center;
+    line-height: 200%;
     position: relative;
-    padding: 10%;
+    padding: 10% 3%;
+}
+
+.aboutText h2{
+    font-style: italic;
 }
 
 
@@ -185,20 +194,21 @@ nav {
 .newsletter{
     background: url('images/wave-bkgd.jpg') no-repeat bottom left;
     background-size: cover center;
-    padding-top: 5%;
+    padding-top: 2%;
     height: 300px;
 }
 .newsletterText h2{
     font-size: 28px;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
 }
 
 .newsletterText{
     text-align: center;
     color: white;
     position: relative;
-    line-height: 150%;
-    padding: 10%;
+    line-height: 200%;
+    padding: 10% 5% 10% 5%;
+
 }
 
 .subscription{
@@ -208,14 +218,15 @@ nav {
 }
 
 form {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
-
 .container{
-    padding-top: 5%;
+ /*   padding-top: 5%;
     padding-bottom: 5%;
-    padding-right: 5%;
+    padding-right: 5%;*/
+    margin-top: 2%;
+    padding: 15% 20% 20% 20%;
     background-color: rgb(34, 34, 34);
     display: flex;
     justify-content: space-around;
@@ -224,6 +235,14 @@ form {
 .alohaInfoText, .linksText, .linksIcon {
     color: white;
     line-height: 175%;
+}
+
+.alohaInfoText {
+    position: relative;
+    left: 17%;
+    text-align: center;
+    padding: 0 25% 0 25%;
+    white-space: nowrap;
 }
 
 .contact{
@@ -242,16 +261,41 @@ form {
     color: grey;
 }
 
-
 .socialmedia{
-    width: 7%;
+   /* width: 7%;
     display: flex;
     justify-content: space-around;
-    flex-wrap: no-wrap;
+    flex-wrap: no-wrap; */
+
+    display: flex;
+    position: relative;
+
 }
+
+.linksText {
+    visibility: hidden;
+}
+
+.linksIcon {
+    position: absolute;
+    right: 200%;
+    top: 110%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.linksIcon li{
+    padding-right: 12%;
+}
+
 
 /*Tablet View*/
 @media only screen and (min-width:600px) { /* when atleast 600px, applie the following*/
+
+    html {
+        font size: 16px;
+    }
 
     .newsletterText {
         padding-right: 10%;
@@ -260,40 +304,87 @@ form {
 
     .newsletter {
         background-size: cover;
-        height: 250px;
+        height: 200px;
         padding-bottom: 23%;
     }
 
     .newsletterText h2{
-        margin-bottom: 7%;
+        margin-bottom: 3%;
+    }
+
+    .aboutText{
+        padding: 10% 8%;
     }
 
 }
 
 /*Desktop View*/
-@media only screen and (min-width:1240px) { /* when atleast 600px, applie the following*/
+@media only screen and (min-width:1240px) { 
+
+    html {
+        font-size: 16px;
+    }
 
     .newsletter{
-        padding: 5%;
+        padding: 1%;
     }
 
     .newsletterText {
-        padding: 1% 17% 1% 17%;
+        padding: 0% 20% 0% 20%;
         line-height: 200%;
 
     }
 
     .newsletter h2{
-        margin-bottom: 3%;
+        margin-top: 2%;
+        margin-bottom: 1%;
     }
 
     form {
-        margin-top: 5%;
+        margin-top: 3%;
     }
 
     .subscription{
         padding: 12px;  
         border-radius: 25px;
     }
+
+    .aboutText{
+        padding: 10% 27%;
+    }
+
+    .socialmedia{
+         display: flex;
+         justify-content: space-around;
+         flex-wrap: no-wrap; 
+    }
+
+    .container{
+           padding-top: 5%;
+           padding-bottom: 5%;
+           padding-right: 5%;
+    }
+
+    .linksText {
+        visibility: visible;
+    }
+
+    .linksIcon {
+        display: flex;
+        flex-direction: column;
+        position: static;
+        margin-right: 15%;
+    }
+
+    .alohaInfoText {
+        position: static;
+        text-align: left;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
 
 }

@@ -180,11 +180,13 @@ nav {
     text-align: center;
     line-height: 200%;
     position: relative;
-    padding: 10% 3%;
+    padding: 8% 3%;
 }
 
 .aboutText h2{
     font-style: italic;
+    font-size: 30px;
+    margin-bottom: 5%;
 }
 
 
@@ -381,7 +383,7 @@ form {
     }
 
     .aboutText{
-        padding: 10% 27%;
+        padding: 5% 27%;
     }
 
 

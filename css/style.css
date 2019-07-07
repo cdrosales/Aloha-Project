@@ -128,24 +128,18 @@ body{
     height: 6%;
 }
 
-
-.navLinks {
-    display: flex;
-}
-
-
-.navText {
-    color: lightsalmon;
-
-}
-
 nav {
     width: 60%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: row;
+    
 }
 
+#navText{
+    display: flex;
+    justify-content: space-between;
+}
 
 /*BANNER*/
 
@@ -157,7 +151,7 @@ nav {
     url('images/banner-girl.png') no-repeat center 60px, 
     url('images/flower-bkgd.jpg') repeat-x center top;
     background-size: cover, contain, cover; /* 3 images*/
-    height: 400px
+    height: 300px
 }
 
 .bannerText h1 {
@@ -173,6 +167,17 @@ nav {
     font-size: 50px;
 }
 
+/*ABOUT*/
+
+
+.aboutText{
+    background-color: grey;
+    text-align: center;
+    position: relative;
+    padding: 10%;
+}
+
+
 
 /* NEWSLETTER*/
 
@@ -182,8 +187,8 @@ nav {
     height: 300px;
 }
 .newsletterText h2{
-    font-size: 40px;
-    margin-bottom: 15px;
+    font-size: 30px;
+    margin-bottom: 2%;
 }
 
 .newsletterText{
@@ -191,24 +196,25 @@ nav {
     color: white;
     position: relative;
     line-height: 200%;
-    top: 20%;
+    padding: 10%;
 }
 
 
 .subscription{
     background-color: white;
-    padding: 8px;
-    border-radius: 10px;
+    padding: 2%;
+    border-radius: 20px;
 }
 
 form {
-    margin-top: 20px;
+    margin-top: 3%;
 }
 
 
 .container{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
     background-color: rgb(34, 34, 34);
     display: flex;
     justify-content: space-around;
@@ -243,3 +249,29 @@ form {
     flex-wrap: no-wrap;
 }
 
+/*Tablet View*/
+@media only screen and (min-width:600px) { /* when atleast 600px, applie the following*/
+
+
+}
+
+/*Desktop View*/
+@media only screen and (min-width:1240px) { /* when atleast 600px, applie the following*/
+
+    
+    .newsletter {
+        padding-bottom: 20%;
+        height: 150px;
+    }
+
+    .newsletterText {
+        padding-right: 25%;
+        padding-left: 25%;
+    }
+
+    .subscription{
+        padding: 12px;  
+        border-radius: 25px;
+    }
+
+}

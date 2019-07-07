@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"><!--mobile vs dimensions in code-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!--IMPORTANT FOR MOBILE DEVICES-->
         <title>Aloha Apparel Co.</title>
         <meta name="description" content=" A clothing bbrand for surfers in the West Coast"><!--important to have name as description for google search-->
         <script src="https://kit.fontawesome.com/c744376fb1.js"></script>
@@ -20,11 +20,11 @@
 
                 <nav> 
                 
-                <ul>
-                <li><a href="about" class="navText">About</a></li>
-                <li><a href="shop" class="navText">Shop</a></li>
-                <li><a href="featured" class="navText">Featured</a></li>
-                <li><a href="updates" class="navText">Updates</a></li>
+                <ul id="navText">
+                <li><a href="about">About</a></li>
+                <li><a href="shop">Shop</a></li>
+                <li><a href="featured">Featured</a></li>
+                <li><a href="updates">Updates</a></li>
                 </ul>   
  
                 </nav>
@@ -43,8 +43,10 @@
 </section>
 
 <section class="about" id="about">
-    <h2><i>Hand-Crafted<i> <b>Styles</b></h2>
+    <div class="aboutText">
+    <h2><i>Hand-Crafted</i> <b>Styles</b></h2>
     <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products  or sign-up for updates below.</p>
+    </div>
 </section>
 
 <section class="products" id="products">
@@ -81,12 +83,12 @@
 
 <section class="newsletter" id="updates">
     <div class="newsletterText">
-        <h2><i>Sign up for</i> Updates</h2>
+        <h2>Sign up for Updates</h2>
         <p>
         Stay updated on our latest product releases, 
-        be first to find out about 
-        <br>
-        upcoming sales, and get free tips from our blog. Unsubscribe at any time.
+        be first to find out about upcoming sales, 
+        and get free tips from our blog. 
+        Unsubscribe at any time.
         </p>
 
         <form>

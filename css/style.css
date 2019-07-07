@@ -101,6 +101,7 @@
 
 html{
     font-size: 16px;
+    width: auto;
 }
 
 body{
@@ -183,22 +184,22 @@ nav {
 
 .newsletter{
     background: url('images/wave-bkgd.jpg') no-repeat bottom left;
-    background-size: cover;
+    background-size: cover center;
+    padding-top: 5%;
     height: 300px;
 }
 .newsletterText h2{
-    font-size: 30px;
-    margin-bottom: 2%;
+    font-size: 28px;
+    margin-bottom: 8%;
 }
 
 .newsletterText{
     text-align: center;
     color: white;
     position: relative;
-    line-height: 200%;
+    line-height: 150%;
     padding: 10%;
 }
-
 
 .subscription{
     background-color: white;
@@ -207,7 +208,7 @@ nav {
 }
 
 form {
-    margin-top: 3%;
+    margin-top: 10%;
 }
 
 
@@ -252,21 +253,42 @@ form {
 /*Tablet View*/
 @media only screen and (min-width:600px) { /* when atleast 600px, applie the following*/
 
+    .newsletterText {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .newsletter {
+        background-size: cover;
+        height: 250px;
+        padding-bottom: 23%;
+    }
+
+    .newsletterText h2{
+        margin-bottom: 7%;
+    }
 
 }
 
 /*Desktop View*/
 @media only screen and (min-width:1240px) { /* when atleast 600px, applie the following*/
 
-    
-    .newsletter {
-        padding-bottom: 20%;
-        height: 150px;
+    .newsletter{
+        padding: 5%;
     }
 
     .newsletterText {
-        padding-right: 25%;
-        padding-left: 25%;
+        padding: 1% 17% 1% 17%;
+        line-height: 200%;
+
+    }
+
+    .newsletter h2{
+        margin-bottom: 3%;
+    }
+
+    form {
+        margin-top: 5%;
     }
 
     .subscription{

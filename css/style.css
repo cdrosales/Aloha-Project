@@ -278,7 +278,7 @@ form {
 
 .linksIcon {
     position: absolute;
-    right: 200%;
+    right: 198%;
     top: 110%;
     display: flex;
     flex-direction: row;
@@ -314,6 +314,37 @@ form {
 
     .aboutText{
         padding: 10% 8%;
+    }
+
+   .linksText {
+       visibility: visible;
+   }
+
+   .linksIcon {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    margin: 5%;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        position: static;
+        padding-top: 20%;
+    
+    }
+
+    .alohaInfoText {
+        text-align: left;
+        margin-right: 40%;
+    }
+
+    .socialmedia {
+        position: absolute;
+        margin-left: 15%;
     }
 
 }
@@ -353,38 +384,39 @@ form {
         padding: 10% 27%;
     }
 
-    .socialmedia{
-         display: flex;
-         justify-content: space-around;
-         flex-wrap: no-wrap; 
-    }
-
-    .container{
-           padding-top: 5%;
-           padding-bottom: 5%;
-           padding-right: 5%;
-    }
 
     .linksText {
         visibility: visible;
     }
-
+ 
     .linksIcon {
-        display: flex;
-        flex-direction: column;
-        position: static;
-        margin-right: 15%;
-    }
-
-    .alohaInfoText {
-        position: static;
-        text-align: left;
-    }
-
-    .container {
-        display: flex;
-        justify-content: space-between;
-    }
+     display: flex;
+     flex-direction: column;
+     position: static;
+     margin: 5%;
+ 
+     }
+ 
+     .container {
+         display: flex;
+         justify-content: space-between;
+         flex-direction: row-reverse;
+         position: static;
+         padding-top: 5%;
+         padding-bottom: 5%;
+         padding-left: 5%;
+     
+     }
+ 
+     .alohaInfoText {
+         text-align: left;
+         margin-right: 63%;
+     }
+ 
+     .socialmedia {
+         position: absolute;
+         margin-left: 15%;
+     }
 
 
 }

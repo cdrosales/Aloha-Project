@@ -263,7 +263,7 @@ form {
     position: relative;
     /* left: 50%; */
     text-align: center;
-    padding: 0 0 0 75%;
+    padding: 0 0 0 70%;
     white-space: nowrap;
 }
 
@@ -354,8 +354,8 @@ form {
     /* SUBSCRIPTION 600px */
 
     .newsletterText {
-        padding-right: 10%;
-        padding-left: 10%;
+        padding-right: 20%;
+        padding-left: 20%;
     }
 
     .newsletter {
@@ -466,7 +466,7 @@ form {
     }
 
     .newsletterText {
-        padding: 1% 0;
+        padding: 0 15%;
         line-height: 200%;
 
     }

@@ -193,6 +193,12 @@ header {
     margin-bottom: 5%;
 }
 
+/* PRODUCTS*/
+
+
+
+
+
 
 /* NEWSLETTER*/
 
@@ -236,12 +242,13 @@ form {
     color: white;
     border-radius: 20px;
     border: none;
-    padding: 5px 15px;
+    padding: 7px 15px 7px 15px;
 }
 
+/* FOOTER */
 .container{
     margin-top: 1%;
-    padding: 15% 35% 20% 20%;
+    padding: 15% 20%;
     background-color: rgb(34, 34, 34);
     display: flex;
     justify-content: space-around;
@@ -254,9 +261,10 @@ form {
 
 .alohaInfoText {
     position: relative;
-    left: 50%;
+    /* left: 50%; */
     text-align: center;
-    padding: 0 10% 0 10%;
+    padding: 0 0 0 75%;
+    white-space: nowrap;
 }
 
 .contact{
@@ -287,8 +295,10 @@ form {
 
 .linksIcon {
     position: relative;
-    top: 115%;
-    right: 50%;
+    /* top: 115%; */
+    /* right: 50%; */
+    right: 135%;
+    margin-top: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -308,52 +318,8 @@ form {
     header{ 
         height: 100px;
     }
-
-    .newsletterText {
-        padding-right: 10%;
-        padding-left: 10%;
-    }
-
-    .newsletter {
-        background-size: cover;
-        height: 200px;
-        padding-bottom: 23%;
-    }
-
-    .newsletterText h2{
-        margin-bottom: 3%;
-    }
-
-    .aboutText{
-        padding: 10% 8%;
-    }
-
-    .linksText {
-        display: inline-block;
-    }
-
-
-   .linksIcon {
-    display: flex;
-    flex-direction: column;
-    position: static;
-    margin-right: 5%;
-    }
     
-
-    .alohaInfoText {
-        text-align: left;
-        margin-right: 70%;
-        left: 0%;
-
-    }
-    
-    .socialmedia {
-        position: absolute;
-        padding-left: 80%;
-
-    }
-
+    /* NAV 600px */
     .topcontainer {
         display: flex;
         justify-content: space-between;
@@ -378,15 +344,70 @@ form {
         width: 100%;
     }
 
+
+    /* ABOUT 600px */
+
+    .aboutText{
+        padding: 10% 8%;
+    }
+
+    /* SUBSCRIPTION 600px */
+
+    .newsletterText {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .newsletter {
+        background-size: cover;
+        height: 200px;
+        padding-bottom: 23%;
+    }
+
+    .newsletterText h2{
+        margin-bottom: 3%;
+    }
+
+     
     #button {
         border-radius: 20px;
         border: none;
-        padding: 8px 30px;
+        padding: 10px 20px 8px 20px;
     }
 
     #emailInfo{
         padding-left: 3%;
     }
+
+
+/* FOOTER 600px */
+    .linksText {
+        display: inline-block;
+    }
+
+
+   .linksIcon {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    margin-right: 5%;
+    margin-top: 0;
+    }
+    
+
+    .alohaInfoText {
+        text-align: left;
+        padding: 0 70% 0 0%;
+        left: 0%;
+
+    }
+    
+    .socialmedia {
+        position: absolute;
+        padding-left: 70%;
+
+    }
+
 
 }
 
@@ -401,51 +422,8 @@ form {
         height: 100px;
     }
 
-    .newsletter{
-        padding: 5% 15%;
-    }
-
-    .newsletterText {
-        padding: 1% 0;
-        line-height: 200%;
-
-    }
-
-    .newsletter h2{
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-
-    form {
-        margin-top: 3%;
-    }
-
-    .subscription{
-        padding: 12px;  
-        border-radius: 25px;
-    }
-
-    .aboutText{
-        padding: 5% 30%;
-    }
-
-
-    .container {
-        padding: 5% 0;
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .socialmedia {
-        margin-left: 40%; 
-    }
-
-    .alohaInfoText{
-        position: relative;
-        left: 0%;
-    }
-
-    .topcontainer{
+      /* NAV 1240 px */
+      .topcontainer{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -475,18 +453,74 @@ form {
         margin-left: 30%;
     }
 
-    .socialmedia {
-        padding-right: 80%;
+    /* ABOUT 1240px */
+
+    .aboutText{
+        padding: 5% 30%;
+    }
+
+
+/* SUBSCRIPTION 1240px */
+    .newsletter{
+        padding: 5% 15%;
+    }
+
+    .newsletterText {
+        padding: 1% 0;
+        line-height: 200%;
+
+    }
+
+    .newsletter h2{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    form {
+        margin-top: 3%;
+    }
+
+    .subscription{
+        padding: 12px 5px 12px 12px;  
+        border-radius: 25px;
     }
 
     #button {
         border-radius: 20px;
         border: none;
-        padding: 10px 30px;
+        padding: 12px 25px 10px 25px;
+        
     }
 
     #emailInfo{
         padding-left: 1%;
     }
+
+/* FOOTER 1240px */
+    .container {
+        padding: 5% 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .socialmedia {
+        margin-left: 45%; 
+    }
+
+    .alohaInfoText{
+        position: relative;
+        left: 0%;
+    }
+  
+    .socialmedia {
+        padding-right: 80%;
+    }
+
+    .linksIcon{
+        margin-top: 0;
+    }
+    
+
+ 
 
 }

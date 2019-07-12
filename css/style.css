@@ -109,6 +109,7 @@ html{
 h2 {
     font-family: 'Playfair Display';
     font-style: italic;
+    text-align: center;
 }
 
 body{
@@ -116,6 +117,9 @@ body{
     color: #2d2d2d;
 }
 
+#bolded {
+    font-family: 'Playfair Display Bold';
+}
 
 
 
@@ -148,7 +152,7 @@ header {
 
 #navText{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-transform: uppercase;    
     margin-top: 6%;
 }
@@ -168,7 +172,7 @@ header {
         rgba(0,0,0,0.25) 0%,
         rgba(0,0,0,0.25) 100%
     ),
-    url('images/banner-girl.png') no-repeat center 60px, 
+    url('images/banner-girl.png') no-repeat center 30px, 
     url('images/flower-bkgd.jpg') repeat-x center;
     background-size: cover, contain, cover; /* 3 images*/
     height: 400px;
@@ -185,7 +189,7 @@ header {
     text-align: center;
     color: white;
     position: relative;
-    top: calc(50% - 25px); /* calculates to the center, center of the page - half of the font size */
+    top: calc(50% - 25px); 
     font-size: 50px;
     font-weight: bold;
     font-family: 'Playfair Display';
@@ -209,48 +213,72 @@ header {
 
 /* PRODUCTS*/
 
-.products {
-    display: flex;
-}
-     
 
+/* .item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#prImg{
+    position: relative;
+    background-size: contain;
+    width: 400px;
+
+}
+
+#psImg{
+    position: relative;
+    background-size: contain;
+    width: 200px;
+} */
+
+.products p {
+    font-family: 'Raleway Medium';
+
+}
 
 .mens {
-    background: url('images/mens-category.jpg') no-repeat center;
-    background-size: contain;
-    height: 400px;
-
+    background: linear-gradient(
+        rgba(0,0,0,0.25) 0%,
+        rgba(0,0,0,0.25) 100%
+    ),
+    url('images/mens-category.jpg') no-repeat center;
+    background-size: contain, contain;
+    height: 200px;
 }
+
 
 .mens p{
     text-align: center;
     color: white;
     position: relative;
-    top: calc(50% - 8px); /* calculates to the center, center of the page - half of the font size */
+    top: calc(50% - 8px); 
     font-size: 16px;
     text-transform: uppercase;
+
 }
 
 .trends {
     background: url('images/trends-category.jpg') no-repeat center;
     background-size: contain;
-    height: 400px;
+    height: 200px;
 }
 
 .trends p{
     text-align: center;
     color: white;
     position: relative;
-    top: calc(50% - 8px); /* calculates to the center, center of the page - half of the font size */
+    top: calc(50% - 8px);
     font-size: 16px;
     text-transform: uppercase;
-}
+} 
 
 
 .glasses {
     background: url('images/glasses-category.jpg') no-repeat center;
     background-size: contain;
-    height: 400px;
+    height: 200px;
 
 
 }
@@ -259,16 +287,16 @@ header {
     text-align: center;
     color: white;
     position: relative;
-    top: calc(50% - 8px); /* calculates to the center, center of the page - half of the font size */
+    top: calc(50% - 8px); 
     font-size: 16px;
     text-transform: uppercase;
 
-}
+} 
 
  .sale {
     background: url('images/sale-category.jpg') no-repeat center;
     background-size: contain;
-    height: 400px;
+    height: 200px;
 
 
 }
@@ -277,34 +305,32 @@ header {
     text-align: center;
     color: white;
     position: relative;
-    top: calc(50% - 8px); /* calculates to the center, center of the page - half of the font size */
+    top: calc(50% - 8px); 
     font-size: 16px;
     text-transform: uppercase;
 
-}
+} 
 
 .bags {
     background: url('images/bags-category.jpg') no-repeat center;
     background-size: contain;
-    height: 400px;
-
-
+    height: 200px;
 }
 
 .bags p{
     text-align: center;
     color: white;
     position: relative;
-    top: calc(50% - 8px); /* calculates to the center, center of the page - half of the font size */
+    top: calc(50% - 8px); 
     font-size: 16px;
     text-transform: uppercase;
 
-}
+} 
 
 .womens {
     background: url('images/womens-category.jpg') no-repeat center;
     background-size: contain;
-    height: 400px;
+    height: 200px;
 
 
 }
@@ -313,11 +339,11 @@ header {
     text-align: center;
     color: white;
     position: relative;
-    top: calc(50% - 8px); /* calculates to the center, center of the page - half of the font size */
+    top: calc(50% - 8px); 
     font-size: 16px;
     text-transform: uppercase;
 
-}
+} 
 
 
 /* FEATURED*/
@@ -333,7 +359,7 @@ section h2 {
 /* NEWSLETTER*/
 
 .newsletter{
-    background: url('images/wave-bkgd.jpg') no-repeat bottom left;
+    background: url('images/wave-bkgd.jpg') no-repeat bottom right;
     background-size: cover center;
     padding-top: 2%;
     height: 300px;
@@ -448,7 +474,7 @@ form {
     }
 
     header{ 
-        height: 100px;
+        height: 105px;
     }
     
     /* NAV 600px */
@@ -461,6 +487,7 @@ form {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         padding: 3% 2%;
     }
 
@@ -496,7 +523,7 @@ form {
     }
 
     .newsletter {
-        background-size: cover;
+        background-size: cover right;
         height: 200px;
         padding-bottom: 23%;
     }
@@ -660,6 +687,11 @@ form {
     }
     
 
- 
+
 
 }
+
+
+/* fix h1 to only one line 
+subscription image zoom and position for mobile/desktop
+banner girl px adjustment for desktop view */

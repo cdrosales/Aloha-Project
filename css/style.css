@@ -104,14 +104,20 @@ html{
     width: auto;
 }
 
-    h1, h2 {
-        font-family: 'Playfair Display';
-    }
+
+
+h2 {
+    font-family: 'Playfair Display';
+    font-style: italic;
+}
 
 body{
     font-family: 'Raleway Light';
     color: #2d2d2d;
 }
+
+
+
 
 /*HEADER*/
 
@@ -149,6 +155,9 @@ header {
 
 #navText a {
     color: #e2574c;
+    text-decoration: none;
+
+    
 }
 
 /*BANNER*/
@@ -167,6 +176,8 @@ header {
 .bannerText h1 {
     font-size: 16px;
     margin-bottom: 13px;
+    font-family: 'Playfair Display';
+
 }
 
 .bannerText { 
@@ -175,6 +186,8 @@ header {
     position: relative;
     top: calc(50% - 25px); /* calculates to the center, center of the page - half of the font size */
     font-size: 50px;
+    font-weight: bold;
+    font-family: 'Playfair Display';
 }
 
 /*ABOUT*/
@@ -195,6 +208,115 @@ header {
 
 /* PRODUCTS*/
 
+.products {
+    display: flex;
+}
+     
+
+
+.mens {
+    background: url('images/mens-category.jpg') no-repeat center;
+    background-size: contain;
+    height: 400px;
+
+}
+
+.mens p{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: calc(50% - 8px); /* calculates to the center, center of the page - half of the font size */
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.trends {
+    background: url('images/trends-category.jpg') no-repeat center;
+    background-size: contain;
+    height: 400px;
+}
+
+.trends p{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: calc(50% - 8px); /* calculates to the center, center of the page - half of the font size */
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+.glasses {
+    background: url('images/glasses-category.jpg') no-repeat center;
+    background-size: contain;
+    height: 400px;
+
+
+}
+
+.glasses p{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: calc(50% - 8px); /* calculates to the center, center of the page - half of the font size */
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+ .sale {
+    background: url('images/sale-category.jpg') no-repeat center;
+    background-size: contain;
+    height: 400px;
+
+
+}
+    
+.sale p{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: calc(50% - 8px); /* calculates to the center, center of the page - half of the font size */
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+.bags {
+    background: url('images/bags-category.jpg') no-repeat center;
+    background-size: contain;
+    height: 400px;
+
+
+}
+
+.bags p{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: calc(50% - 8px); /* calculates to the center, center of the page - half of the font size */
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+.womens {
+    background: url('images/womens-category.jpg') no-repeat center;
+    background-size: contain;
+    height: 400px;
+
+
+}
+
+.womens p{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: calc(50% - 8px); /* calculates to the center, center of the page - half of the font size */
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
 
 
 
@@ -428,7 +550,7 @@ form {
         justify-content: space-between;
         align-items: center;
         margin: 0 5%;
-        padding: 5% 2%;
+        padding: 1% 2%;
         flex-wrap: nowrap;
         padding: 2% 0;
     }

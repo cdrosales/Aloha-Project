@@ -156,6 +156,7 @@ header {
 #navText a {
     color: #e2574c;
     text-decoration: none;
+    font-family: 'Raleway Medium';
 
     
 }
@@ -176,7 +177,7 @@ header {
 .bannerText h1 {
     font-size: 16px;
     margin-bottom: 13px;
-    font-family: 'Playfair Display';
+    font-family: 'Raleway Medium';
 
 }
 

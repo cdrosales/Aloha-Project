@@ -104,10 +104,15 @@ html{
     width: auto;
 }
 
-
-
 h2 {
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display Italic';
+    font-size: 28px;
+    text-align: center;
+}
+
+
+h2 b {
+    font-family: 'Playfair Display Bold';
     font-style: italic;
     text-align: center;
 }
@@ -117,9 +122,6 @@ body{
     color: #2d2d2d;
 }
 
-#bolded {
-    font-family: 'Playfair Display Bold';
-}
 
 
 
@@ -206,8 +208,8 @@ header {
 }
 
 .aboutText h2{
-    font-style: italic;
-    font-size: 30px;
+    /* font-style: italic;
+    font-size: 30px; */
     margin-bottom: 5%;
 }
 
@@ -348,10 +350,12 @@ header {
 
 /* FEATURED*/
 
-section h2 {
+/* section h2 {
+    font-style: italic;
     text-align: center;
     font-size: 28px;
-}
+} */
+
 
 
 
@@ -365,7 +369,7 @@ section h2 {
     height: 300px;
 }
 .newsletterText h2{
-    font-size: 28px;
+    /* font-size: 28px; */
     margin-bottom: 4%;
 }
 

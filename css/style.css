@@ -451,6 +451,11 @@ form {
     }
     
     /* NAV 600px */
+
+    hr {
+        display: none;
+
+    }
     .topcontainer {
         display: flex;
         justify-content: space-between;

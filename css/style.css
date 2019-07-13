@@ -234,6 +234,7 @@ header {
     background-size: cover;
     height: 200px;
     width: 100%;
+    margin-bottom: 1%;
 
 }
 
@@ -256,7 +257,8 @@ header {
      url('images/trends-category.jpg') no-repeat center;
     background-size: cover;
     height: 200px;
-    width: 50%;
+    width: 49%;
+    margin-bottom: 1%;
 }
 
 .trends p{
@@ -277,8 +279,8 @@ header {
      url('images/glasses-category.jpg') no-repeat center;
     background-size: cover;
     height: 200px;
-    width: 50%;
-
+    width: 49%;
+    margin-bottom: 1%;
 
 }
 
@@ -300,8 +302,8 @@ header {
      url('images/sale-category.jpg') no-repeat center;
     background-size: cover;
     height: 200px;
-    width: 50%;
-
+    width: 49%;
+    margin-bottom: 1%;
 
 }
     
@@ -323,7 +325,8 @@ header {
      url('images/bags-category.jpg') no-repeat center;
     background-size: cover;
     height: 200px;
-    width: 50%;
+    width: 49%;
+    margin-bottom: 1%;
 }
 
 .bags p{
@@ -374,10 +377,9 @@ header {
     background: url('images/wave-bkgd.jpg') no-repeat bottom right;
     background-size: cover center;
     padding-top: 5% 0;
-    height: 300px;
+    height: 250px;
 }
 .newsletterText h2{
-    /* font-size: 28px; */
     margin: 3% 0;
 }
 
@@ -386,7 +388,7 @@ header {
     color: white;
     position: relative;
     line-height: 200%;
-    padding: 62px 33px;
+    padding: 20px 33px;
 
 }
 
@@ -527,21 +529,26 @@ form {
         padding: 0 85px;
     }
 
-    /*PRODUCTS*/
+    .products p {
+        font-size: 22px;
+    }
 
     .mens, .womens {
-        height: 300px;
-        width: 50%;
+        height: 150px;
+        width: 49%;
     }
 
     .trends, .glasses, .sale, .bags {
-        height: 300px;
-        width: 25%;
+        height: 150px;
+        width: 24%;
     }
  
+    .mens, .trends, .sale, .bags {
+        margin-right: 1%;
+    }
 
     .newsletter {
-        padding: 50px 55px;
+        padding: 50px 50px;
     }
 
 
@@ -587,14 +594,8 @@ form {
 /*Desktop View*/
 @media only screen and (min-width:1240px) { 
 
-
-    .newsletter{
-        padding: 25px 55px;
-    }
-
     .newsletterText {
-        padding: 64px 282px;
-
+        padding: 25px 282px;
     }
 
     #emailInfo{
@@ -605,11 +606,17 @@ form {
         padding: 60px 20%;
     }
 
+    .products p {
+        font-size: 26px;
+    }
+
+    .mens, .womens {
+        height: 300px;
+    }
+
+    .trends, .glasses, .sale, .bags {
+        height: 300px;
+    }
 
 
 }
-
-
-
-
-/* banner girl px adjustment for desktop view */ 

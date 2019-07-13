@@ -130,7 +130,7 @@ hr {
 /*HEADER*/
 
 header {
-    height: 150px;
+    height: 130px;
 }
 
 
@@ -227,11 +227,7 @@ header {
 }
 
 .mens {
-    background:  linear-gradient(
-        rgba(0,0,0,0.25) 0%,
-        rgba(0,0,0,0.25) 100%
-    ),
-     url('images/mens-category.jpg') no-repeat center;
+    background: url('images/mens-category.jpg') no-repeat center;
     background-size: contain, contain;
     height: 190px;
     width: 100%;
@@ -250,11 +246,7 @@ header {
 }
 
 .trends {
-    background:  linear-gradient(
-        rgba(0,0,0,0.25) 0%,
-        rgba(0,0,0,0.25) 100%
-    ),
-     url('images/trends-category.jpg') no-repeat center;
+    background: url('images/trends-category.jpg') no-repeat center;
     background-size: contain;
     height: 195px;
     width: 49%;
@@ -271,11 +263,7 @@ header {
 
 
 .glasses {
-    background:  linear-gradient(
-        rgba(0,0,0,0.25) 0%,
-        rgba(0,0,0,0.25) 100%
-    ),
-     url('images/glasses-category.jpg') no-repeat center;
+    background: url('images/glasses-category.jpg') no-repeat center;
     background-size: contain;
     height: 195px;
     width: 49%;
@@ -294,11 +282,7 @@ header {
 } 
 
  .sale {
-    background:  linear-gradient(
-        rgba(0,0,0,0.25) 0%,
-        rgba(0,0,0,0.25) 100%
-    ),
-     url('images/sale-category.jpg') no-repeat center;
+    background: url('images/sale-category.jpg') no-repeat center;
     background-size: contain;
     height: 185px;
     width: 49%;
@@ -317,11 +301,7 @@ header {
 } 
 
 .bags {
-    background:  linear-gradient(
-        rgba(0,0,0,0.25) 0,
-        rgba(0,0,0,0.25)
-    ),
-     url('images/bags-category.jpg') no-repeat center;
+    background: url('images/bags-category.jpg') no-repeat center;
     background-size: contain;
     height: 185px;
     width: 49%;
@@ -338,11 +318,7 @@ header {
 } 
 
 .womens {
-    background:linear-gradient(
-        rgba(0,0,0,0.25) 0%,
-        rgba(0,0,0,0.25) 100%
-    ), 
-    url('images/womens-category.jpg') no-repeat center;
+    background: url('images/womens-category.jpg') no-repeat center;
     background-size: contain;
     height: 200px;
     width: 100%;
@@ -376,12 +352,12 @@ header {
 .newsletter{
     background: url('images/wave-bkgd.jpg') no-repeat bottom right;
     background-size: cover center;
-    padding-top: 2%;
+    padding-top: 5% 0;
     height: 300px;
 }
 .newsletterText h2{
     /* font-size: 28px; */
-    margin-bottom: 4%;
+    margin: 3% 0;
 }
 
 .newsletterText{
@@ -389,7 +365,7 @@ header {
     color: white;
     position: relative;
     line-height: 200%;
-    padding: 10% 5% 10% 5%;
+    padding: 62px 33px;
 
 }
 
@@ -421,7 +397,7 @@ form {
 /* FOOTER */
 .container{
     margin-top: 1%;
-    padding: 15% 20%;
+    padding: 60px 100px;
     background-color: rgb(34, 34, 34);
     display: flex;
     justify-content: space-around;
@@ -489,8 +465,6 @@ form {
     header{ 
         height: 105px;
     }
-    
-    /* NAV 600px */
 
     hr {
         display: none;
@@ -501,7 +475,6 @@ form {
         justify-content: space-between;
         align-items: center;
         margin-top: 2%;
-        /* padding: 3% 2%; */
     }
 
 
@@ -522,9 +495,6 @@ form {
         width: 315px;
     }
 
-
-    /* ABOUT 600px */
-
     .aboutText{
         padding: 60px 22px;
     }
@@ -540,61 +510,34 @@ form {
     /*PRODUCTS*/
 
     .products{
+        height: 305px;
         justify-content: space-between;
     }
     .mens, .womens {
-        width: 300px;
+        width: 50%;
         height: 150px;
-
     }
 
     .trends, .glasses, .sale,
     .bags {
-        width: 150px;
+        width: 25%;
         height: 150px;
-
-    }
-
-
-    /* SUBSCRIPTION 600px */
-
-    .newsletterText {
-        padding-right: 10%;
-        padding-left: 10%;
     }
 
     .newsletter {
-        background-size: cover right;
-        height: 20px;
-        padding-bottom: 23%;
+        padding: 50px 55px;
     }
 
-    .newsletterText h2{
-        margin-bottom: 3%;
-    }
 
     #button {
-        padding: 7px 12px 6px 12px;
+        padding: 10px 12px 8px 12px;
     }
-     
-    /* #button {
-        border-radius: 20px;
-        border: none;
-        padding: 9px 20px 11px 20px;
-    } */
 
     #emailInfo{
         padding-left: 3%;
-        width: 40%;
+        width: 217px;
     }
 
-
-/* FOOTER 600px */
-    .container {
-        height: 100px;
-    }
-
-    }
     .linksText {
         display: inline-block;
     }
@@ -604,7 +547,7 @@ form {
     display: flex;
     flex-direction: column;
     position: static;
-    margin-right: 5%;
+    margin-right: 7%;
     margin-top: 0;
     }
     
@@ -627,93 +570,35 @@ form {
 
 /*Desktop View*/
 @media only screen and (min-width:1240px) { 
-/* 
-
-      /* NAV 1240 px */
-    
-    #navText{
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 0;
-        margin-right: 0px;
-        margin-left: 30%;
-    }
-
-    /* ABOUT 1240px */
-
-    .aboutText {
-        padding: 70px 32px;
-    }
-
-    .aboutText p{
-        padding-left: 25%;
-        padding-right: 25%;
-    }
 
 
-
-/* SUBSCRIPTION 1240px */
     .newsletter{
-        padding: 5% 15%;
+        padding: 25px 55px;
     }
 
     .newsletterText {
-        padding: 0 17%;
-        line-height: 200%;
+        padding: 64px 282px;
 
-    }
-
-    .newsletter h2{
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-
-    form {
-        margin-top: 3%;
-    }
-
-    .subscription{
-        padding: 12px 5px 13px 12px;  
-        border-radius: 25px;
-    }
-
-    #button {
-        border-radius: 20px;
-        border: none;
-        padding: 13px 25px 11px 24px;
-        
     }
 
     #emailInfo{
         padding-left: 1%;
     }
-
-/* FOOTER 1240px */
-    .container {
-        padding-top: 5%;
-        padding-bottom: 5%;
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .socialmedia {
-        margin-left: 45%; 
-    }
-
-    .alohaInfoText{
-        position: relative;
-        left: 0%;
-    }
-  
-    .socialmedia {
-        padding-right: 80%;
-    }
-
-    .linksIcon{
-        margin-top: 0;
-    }
     
+    .aboutText{
+        padding: 60px 20%;
+    }
 
+    .mens, .womens {
+        width: 50%;
+        height: 150px;
+    }
+
+    .trends, .glasses, .sale,
+    .bags {
+        width: 25%;
+        height: 150px;
+    }
 
 
 }

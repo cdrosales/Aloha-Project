@@ -152,20 +152,20 @@ header {
 }
 
 
-#navText{
+.navText{
     display: flex;
     justify-content: space-evenly;
     text-transform: uppercase;    
     margin-top: 15px;
 }
 
-#navText a {
+.navText a {
     color: #e2574c;
     text-decoration: none;
     font-family: 'Raleway Medium';
 }
 
-#navText a:hover {
+.navText a:hover {
     color:#b64036;
 }
 
@@ -219,7 +219,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 500px;
+    height: 600px;
 }
 
 .products p {
@@ -228,8 +228,8 @@ header {
 
 .mens {
     background: url('images/mens-category.jpg') no-repeat center;
-    background-size: contain;
-    height: auto;
+    background-size: cover;
+    /* height: 300px; */
     width: 100%;
 
 }
@@ -247,9 +247,9 @@ header {
 
 .trends {
     background: url('images/trends-category.jpg') no-repeat center;
-    background-size: contain;
+    background-size: cover;
     height: auto;
-    width: 49%;
+    width: 50%;
 }
 
 .trends p{
@@ -264,9 +264,9 @@ header {
 
 .glasses {
     background: url('images/glasses-category.jpg') no-repeat center;
-    background-size: contain;
+    background-size: cover;
     height: auto;
-    width: 49%;
+    width: 50%;
 
 
 }
@@ -283,9 +283,9 @@ header {
 
  .sale {
     background: url('images/sale-category.jpg') no-repeat center;
-    background-size: contain;
+    background-size: cover;
     height: auto;
-    width: 49%;
+    width: 50%;
 
 
 }
@@ -302,9 +302,9 @@ header {
 
 .bags {
     background: url('images/bags-category.jpg') no-repeat center;
-    background-size: contain;
+    background-size: cover;
     height: auto;
-    width: 49%;
+    width: 50%;
 }
 
 .bags p{
@@ -319,7 +319,7 @@ header {
 
 .womens {
     background: url('images/womens-category.jpg') no-repeat center;
-    background-size: contain;
+    background-size: cover;
     height: auto;
     width: 100%;
 }

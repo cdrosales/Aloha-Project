@@ -396,7 +396,7 @@ form {
 .container{
     margin-top: 1%;
     padding: 60px 100px;
-    background-color: rgb(34, 34, 34);
+    background-color: #242424;
     display: flex;
     justify-content: space-around;
 }
@@ -426,7 +426,7 @@ form {
 }
 
 .address{
-    color: grey;
+    color: #969696;
 }
 
 .socialmedia{

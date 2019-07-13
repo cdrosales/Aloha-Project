@@ -219,7 +219,6 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 600px;
 }
 
 .products p {
@@ -227,9 +226,13 @@ header {
 }
 
 .mens {
-    background: url('images/mens-category.jpg') no-repeat center;
+    background:  linear-gradient(
+        rgba(0,0,0,0.25) 0%,
+        rgba(0,0,0,0.25) 100%
+    ), 
+    url('images/mens-category.jpg') no-repeat center;
     background-size: cover;
-    /* height: 300px; */
+    height: 200px;
     width: 100%;
 
 }
@@ -246,9 +249,13 @@ header {
 }
 
 .trends {
-    background: url('images/trends-category.jpg') no-repeat center;
+    background: linear-gradient(
+        rgba(0,0,0,0.25) 0%,
+        rgba(0,0,0,0.25) 100%
+    ),
+     url('images/trends-category.jpg') no-repeat center;
     background-size: cover;
-    height: auto;
+    height: 200px;
     width: 50%;
 }
 
@@ -263,9 +270,13 @@ header {
 
 
 .glasses {
-    background: url('images/glasses-category.jpg') no-repeat center;
+    background: linear-gradient(
+        rgba(0,0,0,0.25) 0%,
+        rgba(0,0,0,0.25) 100%
+    ),
+     url('images/glasses-category.jpg') no-repeat center;
     background-size: cover;
-    height: auto;
+    height: 200px;
     width: 50%;
 
 
@@ -282,9 +293,13 @@ header {
 } 
 
  .sale {
-    background: url('images/sale-category.jpg') no-repeat center;
+    background: linear-gradient(
+        rgba(0,0,0,0.25) 0%,
+        rgba(0,0,0,0.25) 100%
+    ),
+     url('images/sale-category.jpg') no-repeat center;
     background-size: cover;
-    height: auto;
+    height: 200px;
     width: 50%;
 
 
@@ -301,9 +316,13 @@ header {
 } 
 
 .bags {
-    background: url('images/bags-category.jpg') no-repeat center;
+    background: linear-gradient(
+        rgba(0,0,0,0.25) 0%,
+        rgba(0,0,0,0.25) 100%
+    ),
+     url('images/bags-category.jpg') no-repeat center;
     background-size: cover;
-    height: auto;
+    height: 200px;
     width: 50%;
 }
 
@@ -318,9 +337,13 @@ header {
 } 
 
 .womens {
-    background: url('images/womens-category.jpg') no-repeat center;
+    background:  linear-gradient(
+        rgba(0,0,0,0.25) 0%,
+        rgba(0,0,0,0.25) 100%
+    ),
+    url('images/womens-category.jpg') no-repeat center;
     background-size: cover;
-    height: auto;
+    height: 200px;
     width: 100%;
 }
 
@@ -506,6 +529,15 @@ form {
 
     /*PRODUCTS*/
 
+    .mens, .womens {
+        height: 300px;
+        width: 50%;
+    }
+
+    .trends, .glasses, .sale, .bags {
+        height: 300px;
+        width: 25%;
+    }
  
 
     .newsletter {

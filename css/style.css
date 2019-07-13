@@ -207,7 +207,6 @@ header {
     line-height: 200%;
     position: relative;
     padding: 50px 12px;
-    /* padding: 12% 2%; */
 }
 
 .aboutText h2{
@@ -218,8 +217,9 @@ header {
 
 .products {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    height: 500px;
 }
 
 .products p {
@@ -228,8 +228,8 @@ header {
 
 .mens {
     background: url('images/mens-category.jpg') no-repeat center;
-    background-size: contain, contain;
-    height: 190px;
+    background-size: contain;
+    height: auto;
     width: 100%;
 
 }
@@ -248,7 +248,7 @@ header {
 .trends {
     background: url('images/trends-category.jpg') no-repeat center;
     background-size: contain;
-    height: 195px;
+    height: auto;
     width: 49%;
 }
 
@@ -265,7 +265,7 @@ header {
 .glasses {
     background: url('images/glasses-category.jpg') no-repeat center;
     background-size: contain;
-    height: 195px;
+    height: auto;
     width: 49%;
 
 
@@ -284,7 +284,7 @@ header {
  .sale {
     background: url('images/sale-category.jpg') no-repeat center;
     background-size: contain;
-    height: 185px;
+    height: auto;
     width: 49%;
 
 
@@ -303,7 +303,7 @@ header {
 .bags {
     background: url('images/bags-category.jpg') no-repeat center;
     background-size: contain;
-    height: 185px;
+    height: auto;
     width: 49%;
 }
 
@@ -320,10 +320,8 @@ header {
 .womens {
     background: url('images/womens-category.jpg') no-repeat center;
     background-size: contain;
-    height: 200px;
+    height: auto;
     width: 100%;
-
-
 }
 
 .womens p{
@@ -410,7 +408,6 @@ form {
 
 .alohaInfoText {
     position: relative;
-    /* left: 50%; */
     text-align: center;
     padding: 0 0 0 70%;
     white-space: nowrap;
@@ -509,20 +506,7 @@ form {
 
     /*PRODUCTS*/
 
-    .products{
-        height: 305px;
-        justify-content: space-between;
-    }
-    .mens, .womens {
-        width: 50%;
-        height: 150px;
-    }
-
-    .trends, .glasses, .sale,
-    .bags {
-        width: 25%;
-        height: 150px;
-    }
+ 
 
     .newsletter {
         padding: 50px 55px;
@@ -589,16 +573,6 @@ form {
         padding: 60px 20%;
     }
 
-    .mens, .womens {
-        width: 50%;
-        height: 150px;
-    }
-
-    .trends, .glasses, .sale,
-    .bags {
-        width: 25%;
-        height: 150px;
-    }
 
 
 }

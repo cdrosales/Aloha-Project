@@ -364,9 +364,21 @@ header {
 /* FEATURED*/
 
 .featured {
-    margin: 7% 5%;
+    margin: 10% 5%;
 }
 
+.featured p, h3 {
+    text-align: center;
+}
+
+.featured p {
+    color: #969696;
+}
+
+.featured h3 {
+    color: #e2574c;
+    margin: 15px 0px;
+}
 
 
 

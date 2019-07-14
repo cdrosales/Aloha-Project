@@ -122,8 +122,6 @@ hr {
 }
 
 
-
-
 header {
     height: 130px;
 }
@@ -164,8 +162,6 @@ header {
     color:#b64036;
 }
 
-
-
 .banner{
     background: linear-gradient(
         rgba(0,0,0,0.25) 0%,
@@ -181,7 +177,6 @@ header {
     font-size: 16px;
     margin-bottom: 13px;
     font-family: 'Raleway Medium';
-
 }
 
 .bannerText { 
@@ -195,8 +190,6 @@ header {
 }
 
 
-
-
 .aboutText{
     text-align: center;
     line-height: 200%;
@@ -207,9 +200,6 @@ header {
 .aboutText h2{
     margin-bottom: 5%;
 }
-
-
-
 
 .products {
     display: flex;
@@ -357,7 +347,7 @@ header {
 
 
 .featured {
-    margin: 15% 3% 20% 3%;
+    margin: 60px 15px 70px 15px;
 }
 
 .featured p, h3 {
@@ -366,6 +356,7 @@ header {
 
 .featured p {
     color: #969696;
+    text-transform: uppercase
 }
 
 .featured h3 {
@@ -379,7 +370,11 @@ header {
 }
 
 .main-carousel {
-    margin: 7% 5%;
+    margin: 5% 5%;
+}
+
+.main-carousel flickity-enabled is-draggable {
+    margin: 60px;
 }
 
 .flickity-page-dots {
@@ -387,13 +382,13 @@ header {
     top: 105%;
 }
 
-
 .newsletter{
     background: url('images/wave-bkgd.jpg') no-repeat bottom right;
     background-size: cover center;
     padding-top: 5% 0;
     height: 250px;
 }
+
 .newsletterText h2{
     margin: 3% 0;
 }
@@ -431,8 +426,6 @@ form {
     border: none;
     padding: 7px 10px;
 }
-
-
 
 .container{
     margin-top: 1%;
@@ -562,10 +555,6 @@ form {
         margin-right: 1%;
     }
 
-    .featured {
-        margin: 10% 2% 15% 2%;
-    }
-
     .featured h3 {
         margin: 5% 20%;
     }
@@ -617,13 +606,14 @@ form {
     .socialmedia {
         position: absolute;
         padding-left: 70%;
-
     }
-
-
 }
 
 @media only screen and (min-width:1240px) { 
+
+    .newsletter{
+        background-size: cover;
+    }
 
     .newsletterText {
         padding: 25px 282px;
@@ -649,18 +639,8 @@ form {
         height: 300px;
     }
 
-    .featured {
-        margin: 5% 5% 7% 5%;
-    }
-    
     .featured h3{
         margin: 5% 0%;
     }
     
-    .main-carousel {
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    
-
 }

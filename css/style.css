@@ -353,12 +353,11 @@ header {
     top: calc(50% - 8px); 
     font-size: 16px;
     text-transform: uppercase;
-
 } 
 
 
 .featured {
-    margin: 5% 5%;
+    margin: 15% 3% 20% 3%;
 }
 
 .featured p, h3 {
@@ -371,17 +370,21 @@ header {
 
 .featured h3 {
     color: #e2574c;
-    margin: 15px 0px;
+    margin: 10px 0px;
 }
 
 .featured img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 }
 
 .main-carousel {
-    padding: 0;
+    margin: 7% 5%;
+}
 
+.flickity-page-dots {
+    position: absolute;
+    top: 105%;
 }
 
 
@@ -559,6 +562,23 @@ form {
         margin-right: 1%;
     }
 
+    .featured {
+        margin: 10% 2% 15% 2%;
+    }
+
+    .featured h3 {
+        margin: 5% 20%;
+    }
+
+    .main-carousel{
+        margin: 10% 5%; 
+    }
+
+    .main-carousel img{
+        width: 250px;
+        height: 250px;
+    }
+
     .newsletter {
         padding: 50px 50px;
     }
@@ -629,5 +649,18 @@ form {
         height: 300px;
     }
 
+    .featured {
+        margin: 5% 5% 7% 5%;
+    }
+    
+    .featured h3{
+        margin: 5% 0%;
+    }
+    
+    .main-carousel {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
 
 }

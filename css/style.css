@@ -369,11 +369,11 @@ header {
     height: 300px;
 }
 
-.main-carousel {
+.featuredProducts {
     margin: 5% 5%;
 }
 
-.main-carousel flickity-enabled is-draggable {
+.featuredProducts flickity-enabled is-draggable {
     margin: 60px;
 }
 
@@ -559,11 +559,11 @@ form {
         margin: 5% 20%;
     }
 
-    .main-carousel{
+    .featuredProducts{
         margin: 10% 5%; 
     }
 
-    .main-carousel img{
+    .featuredProducts img{
         width: 250px;
         height: 250px;
     }

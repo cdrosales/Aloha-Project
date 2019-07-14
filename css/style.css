@@ -424,7 +424,7 @@ form {
     color: white;
     border-radius: 20px;
     border: none;
-    padding: 7px 10px;
+    padding: 6px 10px;
 }
 
 .container{
@@ -574,7 +574,7 @@ form {
 
 
     #button {
-        padding: 10px 12px 8px 12px;
+        padding: 9px 12px 7px 12px;
     }
 
     #emailInfo{
@@ -643,4 +643,8 @@ form {
         margin: 5% 0%;
     }
     
+    .featured {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }

@@ -8,6 +8,7 @@ var flkty = new Flickity( elem, {
   contain: true,
   groupCells: true,
   pageDots: true,
+  autoPlay: 2000,
 });
 
 
@@ -15,10 +16,14 @@ const emailForm = document.getElementById("form")
 
 emailForm.addEventListener("submit", function(event) {
     event.preventDefault(); 
-    if (emailForm.inputMode = true)
-    alert("Thanks for Subscribing!")
-    
 
+    const subscribed = document.getElementById("emailInfo").inputMode
+
+    if (subscribed.inputMode = Text){
+    alert("Thanks for Subscribing!")
+    } else if (subscribed.inputMode = null){
+      alert ("Please enter a valid email")
+    }
 });
 
 

@@ -98,6 +98,7 @@
 html{
     font-size: 14px;
     width: auto;
+    scroll-behavior: smooth;
 }
 
 h2 {
@@ -382,18 +383,18 @@ header {
     top: 105%;
 }
 
-.newsletter{
+.updates{
     background: url('images/wave-bkgd.jpg') no-repeat bottom right;
     background-size: cover center;
     padding-top: 5% 0;
     height: 250px;
 }
 
-.newsletterText h2{
+.updatesText h2{
     margin: 3% 0;
 }
 
-.newsletterText{
+.updatesText{
     text-align: center;
     color: white;
     position: relative;
@@ -568,7 +569,7 @@ form {
         height: 250px;
     }
 
-    .newsletter {
+    .updates {
         padding: 50px 50px;
     }
 
@@ -611,11 +612,11 @@ form {
 
 @media only screen and (min-width:1240px) { 
 
-    .newsletter{
+    .updates{
         background-size: cover;
     }
 
-    .newsletterText {
+    .updatesText {
         padding: 25px 282px;
     }
 

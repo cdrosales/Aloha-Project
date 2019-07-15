@@ -23,22 +23,3 @@ emailForm.addEventListener("submit", function(event) {
 
 
 
-document.getElementById("aboutLink").addEventListener("click", event);
-function event() {
-}
-
-document.getElementById("productsLink").addEventListener("click", event);
-function event() {
-}
-
-
-document.getElementById("featuredLink").addEventListener("click", event);
-function event() {
-}
-
-document.getElementById("updatesLink").addEventListener("click", event);
-function event() {
-
-}
-
-
